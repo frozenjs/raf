@@ -1,0 +1,28 @@
+{
+  "name": "frozen-raf",
+  "version": "0.1.0",
+  "description": "requestAnimationFrame and cancelAnimationFrame shim for Browsers and Node. Also, contains a performance.now shim.",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "buster": "0.7.7",
+    "curl": "https://github.com/cujojs/curl/tarball/0.7.3",
+    "buster-amd": "~0.3.1",
+    "open": "0.0.4",
+    "when": "~2.5.1"
+  },
+  "scripts": {
+    "browsers": "node spec/browsers.js",
+    "test": "buster-test -e node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frozenjs/raf"
+  },
+  "keywords": [],
+  "author": "Blaine Bublitz <blaine@iceddev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frozenjs/raf/issues"
+  }
+}
